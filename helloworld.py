@@ -4,7 +4,7 @@ from sklearn import tree
 
 
 iris = load_iris()
-test_idx = [0,50,100]
+test_idx = [10,70,20]
 
 #training data
 train_target = np.delete(iris.target,test_idx)
